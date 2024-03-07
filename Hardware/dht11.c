@@ -82,7 +82,7 @@ u8 DHT11_Read_Byte(void)
 //temp:温度值(范围:0~50°)
 //humi:湿度值(范围:20%~90%)
 //返回值：0,正常;1,读取失败
-u8 DHT11_Read_Data(u8 *temp,u8 *humi)    
+u8 DHT11_Read_Data(u8 *humiH,u8 *humiL,u8 *tempH,u8 *tempL)    
 {        
  	u8 buf[5];
 	u8 i;
@@ -95,8 +95,10 @@ u8 DHT11_Read_Data(u8 *temp,u8 *humi)
 		}
 		if((buf[0]+buf[1]+buf[2]+buf[3])==buf[4])
 		{
-			*humi=buf[0];
-			*temp=buf[2];
+			*humiH=buf[0];
+			*humiL=buf[1];
+			*tempH=buf[2];
+			*tempL=buf[3];
 		}
 	}else return 1;
 	return 0;	    
@@ -108,13 +110,13 @@ u8 DHT11_Init(void)
 {	 
  	GPIO_InitTypeDef  GPIO_InitStructure;
  	
- 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOG, ENABLE);	 //使能PG端口时钟
+ 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);	 //使能PG端口时钟
 	
- 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;				 //PG11端口配置
+ 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;				 //PG11端口配置
  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
  	GPIO_Init(GPIOG, &GPIO_InitStructure);				 //初始化IO口
- 	GPIO_SetBits(GPIOG,GPIO_Pin_11);						 //PG11 输出高
+ 	GPIO_SetBits(GPIOA,GPIO_Pin_8);						 //PG11 输出高
 			    
 	DHT11_Rst();  //复位DHT11
 	return DHT11_Check();//等待DHT11的回应

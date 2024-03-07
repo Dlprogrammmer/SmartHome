@@ -329,8 +329,8 @@
             <uC99>0</uC99>
             <uGnu>1</uGnu>
             <useXO>0</useXO>
-            <v6Lang>1</v6Lang>
-            <v6LangP>5</v6LangP>
+            <v6Lang>2</v6Lang>
+            <v6LangP>3</v6LangP>
             <vShortEn>1</vShortEn>
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Start;.\User;C:\Users\king\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include;.\System;.\Library;.\Hardware;.\Hardware\ADC</IncludePath>
+              <IncludePath>.\Start;.\User;.\System;.\Library;.\Hardware;C:\Users\king\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -435,39 +435,39 @@
           <GroupName>Hardware</GroupName>
           <Files>
             <File>
+              <FileName>adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\adc.c</FilePath>
+            </File>
+            <File>
               <FileName>beep.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hardware\BEEP\beep.c</FilePath>
+              <FilePath>.\Hardware\beep.c</FilePath>
             </File>
             <File>
               <FileName>dht11.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hardware\DHT11\dht11.c</FilePath>
+              <FilePath>.\Hardware\dht11.c</FilePath>
             </File>
             <File>
               <FileName>key.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hardware\KEY\key.c</FilePath>
+              <FilePath>.\Hardware\key.c</FilePath>
             </File>
             <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hardware\LED\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>oled.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Hardware\OLED\oled.c</FilePath>
+              <FilePath>.\Hardware\led.c</FilePath>
             </File>
             <File>
               <FileName>lsens.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hardware\LSENS\lsens.c</FilePath>
+              <FilePath>.\Hardware\lsens.c</FilePath>
             </File>
             <File>
-              <FileName>adc.c</FileName>
+              <FileName>oled.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Hardware\ADC\adc.c</FilePath>
+              <FilePath>.\Hardware\oled.c</FilePath>
             </File>
           </Files>
         </Group>
