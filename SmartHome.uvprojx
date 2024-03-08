@@ -337,10 +337,10 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls></MiscControls>
+              <MiscControls>-Wno-invalid-source-encoding</MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Start;.\User;.\System;.\Library;.\Hardware;C:\Users\king\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include</IncludePath>
+              <IncludePath>.\Start;.\User;.\System;.\Library;.\Hardware;C:\Users\king\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include;.\Net</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -460,14 +460,14 @@
               <FilePath>.\Hardware\led.c</FilePath>
             </File>
             <File>
-              <FileName>lsens.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Hardware\lsens.c</FilePath>
-            </File>
-            <File>
               <FileName>oled.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Hardware\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>bh1750.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\bh1750.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -488,6 +488,11 @@
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\System\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\timer.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -723,6 +728,26 @@
               <FileName>stm32f10x_wwdg.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Library\stm32f10x_wwdg.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Net</GroupName>
+          <Files>
+            <File>
+              <FileName>esp8266.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Net\esp8266.c</FilePath>
+            </File>
+            <File>
+              <FileName>MqttKit.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Net\MqttKit.c</FilePath>
+            </File>
+            <File>
+              <FileName>onenet.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Net\onenet.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -15,4 +15,6 @@
   Library\stm32f10x_sdio.h Library\stm32f10x_spi.h \
   Library\stm32f10x_tim.h Library\stm32f10x_usart.h \
   Library\stm32f10x_wwdg.h Library\misc.h Hardware\dht11.h System\sys.h \
-  System\delay.h System\usart.h
+  System\delay.h System\usart.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h Hardware\oled.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h Hardware\beep.h

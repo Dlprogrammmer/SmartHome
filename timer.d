@@ -1,4 +1,4 @@
-./key.o: Hardware\key.c Hardware\key.h System\sys.h Start\stm32f10x.h \
+./timer.o: System\timer.c System\timer.h System\sys.h Start\stm32f10x.h \
   Start\core_cm3.h C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   Start\cmsis_version.h Start\cmsis_compiler.h \
   C:\Users\king\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\.\m-profile\cmsis_armclang_m.h \
@@ -14,4 +14,6 @@
   Library\stm32f10x_rcc.h Library\stm32f10x_rtc.h \
   Library\stm32f10x_sdio.h Library\stm32f10x_spi.h \
   Library\stm32f10x_tim.h Library\stm32f10x_usart.h \
-  Library\stm32f10x_wwdg.h Library\misc.h System\delay.h
+  Library\stm32f10x_wwdg.h Library\misc.h Hardware\oled.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h Hardware\led.h \
+  Hardware\beep.h C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h

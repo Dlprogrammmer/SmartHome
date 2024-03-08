@@ -16,4 +16,4 @@
   Library\stm32f10x_tim.h Library\stm32f10x_usart.h \
   Library\stm32f10x_wwdg.h Library\misc.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h Hardware\oledfont.h \
-  System\delay.h
+  System\delay.h C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h

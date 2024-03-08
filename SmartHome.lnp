@@ -8,11 +8,12 @@
 ".\dht11.o"
 ".\key.o"
 ".\led.o"
-".\lsens.o"
 ".\oled.o"
+".\bh1750.o"
 ".\delay.o"
 ".\sys.o"
 ".\usart.o"
+".\timer.o"
 ".\misc.o"
 ".\stm32f10x_adc.o"
 ".\stm32f10x_bkp.o"
@@ -36,6 +37,9 @@
 ".\stm32f10x_tim.o"
 ".\stm32f10x_usart.o"
 ".\stm32f10x_wwdg.o"
+".\esp8266.o"
+".\mqttkit.o"
+".\onenet.o"
 --strict --scatter ".\SmartHome.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

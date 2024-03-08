@@ -3,7 +3,7 @@
 #include "sys.h"
 //////////////////////////////////////////////////////////////////////////////////	 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
-//ALIENTEK精英STM32开发板
+//ALIENTEK miniSTM32开发板
 //按键驱动代码	   
 //正点原子@ALIENTEK
 //技术论坛:www.openedv.com
@@ -15,21 +15,18 @@
 //////////////////////////////////////////////////////////////////////////////////   	 
 
 
-//#define KEY0 PEin(4)   	//PE4
-//#define KEY1 PEin(3)	//PE3 
-//#define WK_UP PAin(0)	//PA0  WK_UP
-
-#define KEY0  GPIO_ReadInputDataBit(GPIOE,GPIO_Pin_4)//读取按键0
-#define KEY1  GPIO_ReadInputDataBit(GPIOE,GPIO_Pin_3)//读取按键1
-#define WK_UP   GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)//读取按键3(WK_UP) 
-
+#define KEY0 PBin(0) //LED KEY
+#define KEY1 PBin(1) //BEEP KEY
  
 
-#define KEY0_PRES 	1	//KEY0按下
-#define KEY1_PRES	  2	//KEY1按下
-#define WKUP_PRES   3	//KEY_UP按下(即WK_UP/KEY_UP)
+//#define KEY0  GPIO_ReadInputDataBit(GPIOC,GPIO_Pin_1)//读取按键0
+//#define KEY1  GPIO_ReadInputDataBit(GPIOC,GPIO_Pin_13)//读取按键1
+//#define WK_UP   GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)//读取按键2 
+ 
 
+#define KEY0_PRES	1		//KEY0  
+#define KEY1_PRES	2		//KEY1 
 
 void KEY_Init(void);//IO初始化
-u8 KEY_Scan(u8);  	//按键扫描函数					    
+u8 KEY_Scan(u8 mode);  	//按键扫描函数					    
 #endif
