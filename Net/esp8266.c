@@ -195,8 +195,8 @@ unsigned char *ESP8266_GetIPD(unsigned short timeOut)
 			}
 		}
 		
-		delay_ms(5);													//延时等待
-	} while(timeOut--);
+		timeOut--;												//延时等待
+	} while(timeOut>0);
 	
 	return NULL;														//超时还未找到，返回空指针
 

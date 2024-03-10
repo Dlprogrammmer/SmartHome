@@ -36,7 +36,7 @@ I (Library\stm32f10x_usart.h)(0x61605445)
 I (Library\stm32f10x_wwdg.h)(0x61605445)
 I (Library\misc.h)(0x61605445)
 F (.\Start\system_stm32f10x.h)(0x4D783CAA)()
-F (.\User\main.c)(0x65EAC743)(-xc -std=gnu90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Start -I ./User -I ./System -I ./Library -I ./Hardware -I C:/Users/king/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include -I ./Net -Wno-invalid-source-encoding-IC:/Users/king/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./main.o -MD)
+F (.\User\main.c)(0x65ED4EEB)(-xc -std=gnu90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Start -I ./User -I ./System -I ./Library -I ./Hardware -I C:/Users/king/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include -I ./Net -Wno-invalid-source-encoding-IC:/Users/king/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./main.o -MD)
 I (Start\stm32f10x.h)(0x4D783CB4)
 I (Start\core_cm3.h)(0x657FE048)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
@@ -77,6 +77,7 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x63884908)
 I (Hardware\oled.h)(0x6357B2C4)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
 I (Hardware\beep.h)(0x6284D3F4)
+I (Net\onenet.h)(0x5984301F)
 F (.\User\stm32f10x_conf.h)(0x4D99A59E)()
 F (.\User\stm32f10x_it.c)(0x4D99A59E)(-xc -std=gnu90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Start -I ./User -I ./System -I ./Library -I ./Hardware -I C:/Users/king/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include -I ./Net -Wno-invalid-source-encoding-IC:/Users/king/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./stm32f10x_it.o -MD)
 I (User\stm32f10x_it.h)(0x4D99A59E)

@@ -17,4 +17,5 @@
   Library\stm32f10x_wwdg.h Library\misc.h Hardware\dht11.h System\sys.h \
   System\delay.h System\usart.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h Hardware\oled.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h Hardware\beep.h
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h Hardware\beep.h \
+  Net\onenet.h
