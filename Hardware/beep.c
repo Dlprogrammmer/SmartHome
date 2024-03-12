@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2020-04-06 02:16:49
- * @LastEditTime: 2020-04-06 02:18:40
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \undefinedc:\Users\Administrator\Desktop\sunjianping\HARDWARE\BEEP\beep.c
- */
 
 #include "beep.h"
 		    

@@ -494,6 +494,11 @@
               <FileType>1</FileType>
               <FilePath>.\System\timer.c</FilePath>
             </File>
+            <File>
+              <FileName>exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

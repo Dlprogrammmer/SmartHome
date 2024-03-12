@@ -1,12 +1,5 @@
 #include "bh1750.h"
 #include "sys.h"
-
-/*
-	应用说明：
-	在访问I2C设备前，请先调用 i2c_CheckDevice() 检测I2C设备是否正常，该函数会配置GPIO
-*/
-
-
 static void I2C_BH1750_GPIOConfig(void);
 
 
